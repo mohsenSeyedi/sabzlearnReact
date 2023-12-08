@@ -4,7 +4,7 @@ import "./CourseBox.css";
 
 export default function CourseBox() {
   return (
-    <div className="col-4">
+    <div>
       <div className="course-box">
         <a href="#">
           <img

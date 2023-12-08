@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeader from "../SectionHeader/SectionHeader";
 
 import "./LastCourses.css";
+import CourseBox from "../CourseBox/CourseBox";
 
 export default function LastCourses() {
   return (
@@ -14,7 +15,11 @@ export default function LastCourses() {
           desc='سکوی پرتاپ شما به سمت موفقیت'
           btnTitle="تمامی دوره ها"
         />
-
+        <div className="courses-box">
+          <CourseBox/>
+          <CourseBox/>
+          <CourseBox/>
+        </div>
         </div>
       </div>
     </>
